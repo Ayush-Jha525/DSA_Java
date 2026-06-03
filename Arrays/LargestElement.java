@@ -1,4 +1,4 @@
-//Question - Find Largest Element in array
+//Question - Find Largest Element in positive array
 //Time Complexity - O(n)
 //Space Complexity - O(1)
 package Arrays;
