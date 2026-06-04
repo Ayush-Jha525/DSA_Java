@@ -1,6 +1,7 @@
 //Question - Array is Sorted or not
 //Time Complexity - O(n)
 //Space Complexity - O(1)
+package Arrays;
 
 public class IsSorted {
     public static boolean isSorted(int[] arr) {
