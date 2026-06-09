@@ -14,8 +14,8 @@ public class MissingNumber_II {
         int duplicate = -1;
 
         for (int i : s) {
-            if (set.add(i)) { // add method returns if added sucessfully and return false if already exist in
-                              // the set
+            if (set.add(i)) { // add method returns true if added sucessfully and return false if already
+                              // exist in the set
                 sum += i;
             } else {
                 duplicate = i;
@@ -54,7 +54,7 @@ public class MissingNumber_II {
         int[] result = findNumber(arr);
         System.out.println(result[0] + " " + result[1]);
 
-        int[] result1 = findNumber1(arr);
+        int[] result1 = findNumber1(arr); // Note : this method modifyes the original input array!!
         System.out.println(result1[0] + " " + result1[1]);
 
     }
