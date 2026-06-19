@@ -6,12 +6,12 @@ The goal of this repository is to improve problem-solving skills, strengthen DSA
 ## Current Progress
 
 - ✅ Arrays
+- ✅ Strings
 
 ---
 
 ## Upcoming Topics
 
-- Strings
 - Linked List
 - Stack
 - Queue
@@ -32,6 +32,7 @@ The goal of this repository is to improve problem-solving skills, strengthen DSA
 DSA-Java/
 │
 ├── Arrays/
+├── Strings/
 └── README.md
 ```
 
