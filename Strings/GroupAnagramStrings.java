@@ -1,4 +1,4 @@
-//Question : Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+//Question : Given an array of strings strs, group the anagrams together. You can return the answer in any order.
 //Time Complexity : O(n* k)        n = number of strings ,   k = average length of each string
 //Space Complexity : O(n*k)
 package Strings;
