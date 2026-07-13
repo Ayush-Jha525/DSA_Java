@@ -1,6 +1,7 @@
-//Question: Check if a given string is a binary string or not
+//Question: Given a pattern and a string s, determine if s follows the same pattern.
+//Each pattern character must map to exactly one word, and each word must map to exactly one pattern character.
 //Time Complexity : O(n)
-//Space Complexity : O(1)
+//Space Complexity : O(n)
 package Strings;
 
 import java.util.HashMap;
