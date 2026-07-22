@@ -8,14 +8,14 @@ The goal of this repository is to improve problem-solving skills, strengthen DSA
 - ✅ Arrays
 - ✅ Strings
 - ✅ Hashing
+- ✅ Stack
 
 ---
 
 ## Upcoming Topics
 
-- Linked List
-- Stack
 - Queue
+- Linked List
 - Trees
 - Graphs
 
@@ -35,6 +35,7 @@ DSA-Java/
 ├── Arrays/
 ├── Strings/
 ├── Hashing/
+├── Stack/
 └── README.md
 ```
 
