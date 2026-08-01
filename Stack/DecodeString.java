@@ -6,12 +6,15 @@
         *   The string inside the brackets should be repeated exactly k times.
         *   The input is always valid.
         *   Digits are only used for repetition counts.
+        *   The encoded string may contain nested brackets.
 
     Example : Input:    "3[a]2[bc]"
               Output:   "aaabcbc"
 */
-// Time Complexity : O(n)
+// Time Complexity : O(n²) in the worst case
 // Space Complexity : O(n)
+
+/*Approach: Use a StringBuilder as a working stack. Whenever a closing bracket ] is encountered, extract the innermost encoded substring, determine its repeat count, decode it, and append it back. This naturally resolves nested encodings from the inside out. */
 
 package Stack;
 
@@ -59,3 +62,10 @@ public class DecodeString {
         System.out.println(decodeString(s)); // Output: "accaccacc"
     }
 }
+
+/*
+ * Approach: Use a StringBuilder as a working stack. Whenever a closing bracket
+ * ] is encountered, extract the innermost encoded substring, determine its
+ * repeat count, decode it, and append it back. This naturally resolves nested
+ * encodings from the inside out.
+ */
