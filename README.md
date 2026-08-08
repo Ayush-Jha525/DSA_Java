@@ -9,12 +9,12 @@ The goal of this repository is to improve problem-solving skills, strengthen DSA
 - ✅ Strings
 - ✅ Hashing
 - ✅ Stack
+- ✅ Queue
 
 ---
 
 ## Upcoming Topics
 
-- Queue
 - Linked List
 - Trees
 - Graphs
@@ -36,6 +36,7 @@ DSA-Java/
 ├── Strings/
 ├── Hashing/
 ├── Stack/
+├── Queue/
 └── README.md
 ```
 
