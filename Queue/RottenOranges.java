@@ -12,7 +12,7 @@ Adjacent means:
 
 Return the minimum number of minutes until no fresh oranges remain.
 If some fresh oranges can never become rotten, return -1 */
-// Time Complexity : O(n)
+// Time Complexity : O(n x m)
 // Space Complexity : O(n)
 package Queue;
 
@@ -77,8 +77,12 @@ public class RottenOranges {
     }
 
     public static void main(String[] args) {
-        int[][] grid = { { 2, 1, 1 }, { 0, 1, 1 }, { 1, 0, 1 } };
+        int[][] grid1 = { { 2, 1, 1 }, { 0, 1, 1 }, { 1, 0, 1 } };
 
-        System.out.println(orangesRotting(grid));
+        System.out.println(orangesRotting(grid1)); // output : -1
+
+        int[][] grid2 = { { 2, 1, 1 }, { 1, 1, 0 }, { 0, 1, 1 } };
+
+        System.out.println(orangesRotting(grid2)); // output : 4
     }
 }
