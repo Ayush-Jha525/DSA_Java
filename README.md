@@ -11,11 +11,11 @@ The goal of this repository is to improve problem-solving skills, strengthen DSA
 - ✅ Stack
 - ✅ Queue
 - ✅ Linked List
+- Binary Tree
 ---
 
 ## Upcoming Topics
 
-- Trees
 - Graphs
 
 ---
@@ -37,6 +37,7 @@ DSA-Java/
 ├── Stack/
 ├── Queue/
 ├── Linked_List/
+├── Binary Tree/
 └── README.md
 ```
 
