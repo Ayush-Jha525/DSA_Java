@@ -2,14 +2,11 @@
 The lock initially starts at '0000', a string representing the state of the 4 wheels.
 You are given a list of deadends dead ends, meaning if the lock displays any of these codes, the wheels of the lock will stop turning and you will be unable to open it.
 Given a target representing the value of the wheels that will unlock the lock, return the minimum total number of turns required to open the lock, or -1 if it is impossible.*/
-//Time Complexity : O() 
-//Space Complexity : O()
+//Time Complexity : O(10^4) 
+//Space Complexity : O(10^4)
 package Arrays;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class OpentheLock {
     public static int toInt(String str) {
